@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/arunice2" />
+    <TextView
+        android:id="@+id/arun_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arun Agency"
+        android:textSize="50sp"
+        android:paddingLeft="60dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+    <TextView
+        android:id="@+id/disc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For each Rs100 get Rs25 free ice cream "
+        android:layout_alignParentBottom="true"
+        android:textSize="40dp"
+        android:paddingLeft="30dp"
+        android:textColor="#F50057"
+        android:textColorHighlight="@android:color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Road , Chatrapur"
+        android:layout_below="@id/arun_textview"
+        android:textSize="30dp"
+        android:paddingLeft="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opening 25th June,9AM"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30dp"
+        android:paddingBottom="0"/>
+</RelativeLayout>
